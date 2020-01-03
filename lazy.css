@@ -12,6 +12,8 @@ header{
 }
 h1{
 	vertical-align: center;
+	text-shadow: 5px 5px 5px #C5C2BE;
+	color: #F07E00;
 }
 
 
@@ -77,4 +79,33 @@ p{
 	margin-left: 28%;
 	margin-right: none;
 	font-size: 160%;
+}
+
+footer{
+	background-color: #EBCEAE;
+	border-radius: 10px;
+}
+
+a{
+	display: inline-block;
+	margin-left: 4%;
+	margin-right: 4%;
+	/*border:solid;*/
+	/*margin: 3%;*/
+	color: #000000;
+	/*margin-bottom: 5%;*/
+	background-color: #ffffff;
+	border-radius: 10px;
+	text-shadow: 5px 5px 5px #666666;
+	padding: 20px;
+	font-size: 150%;
+	text-decoration: none;
+	opacity: 0.75;
+	padding: 10px;
+}
+
+
+footer>a:hover{
+	color:white;
+	background-color: 
 }
